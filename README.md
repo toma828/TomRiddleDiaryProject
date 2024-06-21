@@ -39,12 +39,13 @@ ChatGPTによるトム・リドルを模した返答機能
 
 ■ 機能の実装方針予定
 
-1. 動画のGIF変換および画像編集
+1.動画のGIF変換および画像編集
 概要:
 動画ファイルをアップロードし、GIFに変換した後、白黒に編集する機能。
+System呼び出しよりPythonの使用
 使用するライブラリ/ツール:
-streamio-ffmpeg：動画ファイルの処理およびGIFへの変換。
-mini_magick：GIF画像の白黒変換。
+Python-OpenCV
+moviepy
 
 2.ChatGPTによる返答機能
 概要：
