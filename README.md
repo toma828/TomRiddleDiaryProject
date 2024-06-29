@@ -54,11 +54,11 @@ Gem: carrierwave・・・日記画像のアップロード機能
 Gem: mini_magick
 
 ・ChatGPTによる日記への返信機能
-ChatGPTがトム・リドルを装い日記に対し返信を行う機能
+ChatGPTがアルディアスを装い日記に対し返信を行う機能
 使用ツール: ChatGPT API
 
 ・一文字ずつ文字出力
-自分の投稿や、トムリドルの返答を見るときに一文字ずつ文字が出力される機能
+自分の投稿や、アルディアスの返答を見るときに一文字ずつ文字が出力される機能
 Gem：特になし
 
 ■ 機能候補（本リリース）
@@ -68,7 +68,7 @@ Gem：特になし
 
 ・日記公開機能
 日記の公開設定をユーザーが管理できる機能
-1.トムリドルとの日記（ユーザー閲覧のみ＆ChatGPTの返信機能）
+1.アルディアスとの日記（ユーザー閲覧のみ＆ChatGPTの返信機能）
 2.フレンドオンリー
 3.一般公開
 Gem：特になし
@@ -98,8 +98,14 @@ moviepy
 
 2.ChatGPTによる返答機能
 概要：
-ユーザーが投稿した内容に対して、ChatGPTがトム・リドルに模して返答を行う機能
+ユーザーが投稿した内容に対して、ChatGPTがアルディアスに模して返答を行う機能
 コントローラーより、ユーザーが投稿した内容をChatGPT APIに送信し返答を受け取る
 ビューに表示する際は、一文字ずつ文字を出力を行う。 
 使用するライブラリ/ツール：
 OpenAIのChatGPT API
+
+▪️画面遷移図
+Figma：https://www.figma.com/board/j9KFApJ3dpK6KDG4g97GZu/%E7%94%BB%E9%9D%A2%E9%81%B7%E7%A7%BB%E5%9B%B3?t=9zf8xuNLM7aa6Yxm-1
+
+▪️UI
+Figma：https://www.figma.com/design/FWAB92F51cJjaDkADkzB7z/RUNTEQ%E5%8D%92%E6%A5%AD%E5%88%B6%E4%BD%9C?node-id=33-62&t=bfYl1kGxogM7k6V4-1
